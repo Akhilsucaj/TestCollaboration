@@ -1,1 +1,12 @@
-
+#include<stdio.h>
+int main()
+{
+int a=11;
+int b=14;
+int c;
+printf("swapping of two numbers using temporary variables");
+c=a;
+a=b;
+b=c;
+printf("swapped numbers");
+}
