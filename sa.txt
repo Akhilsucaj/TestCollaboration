@@ -1,8 +1,37 @@
 #include<stdio.h>
 int main()
 {
+<<<<<<< HEAD
 int a=10,b=20;
 int sum;
 sum=a+b;
 printf("Addition of two numbers: %d",sum);
+=======
+<<<<<<< HEAD
+int a=10;
+int b=20;
+int c=30;
+if(a>b&&a>c)
+{
+printf("a is greater than b and c",a);
+}
+elseif(b>a&&b>c)
+{
+printf("b is greater than a and c",b);
+}
+else
+{
+printf("c is greater than a and b",c);
+}
+=======
+int a=11;
+int b=14;
+int c;
+printf("swapping of two numbers using temporary variables");
+c=a;
+a=b;
+b=c;
+printf("swapped numbers");
+>>>>>>> b37d6fbde1408123bdcb7c5fdf2cba443849fdc0
+>>>>>>> 4b4a9abfc7b9fbd5d6e353d0a8d3ff82e48031ab
 }
