@@ -1,1 +1,18 @@
+#include<stdio.h>
+main()
+{
+int a;
+char b;
+float c;
+printf("Enter a int value:\n");
+scanf("%d",&a);
+printf("Enter a character:\n");
+scanf("%c",&b);
+printf("Enter a float value:\n");
+scanf("%f",&c);
+printf("Size of %d is %d",a,sizeof(a));
+printf("Size of %c is %d",b,sizeof(b));
+printf("Size of %f is %d",c,sizeof(c));
+}
+
 
